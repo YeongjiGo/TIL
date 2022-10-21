@@ -9,7 +9,6 @@ for i in range(5):
     temp = arr[i]
     arr[i] = arr[index]
     arr[index] = temp
-
-
+    print(arr)
 for i in arr:
-    print(i, end = ' ' )
+    print(i, end = ' ')
