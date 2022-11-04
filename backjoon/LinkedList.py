@@ -25,7 +25,7 @@ class LinkedList:
 
     def __str__(self):
         """링크드 리스트를 문자열로 표현해서 리턴하는 메소드"""
-        res_str = "|"
+        res_str = "/"
 
         iterator = self.head
 
