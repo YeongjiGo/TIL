@@ -21,6 +21,8 @@ class LinkedList:
             iterator = iterator.next
         return iterator
         
+    
+    
     def append(self, data):
         """링크드 리스트 추가 연산 메소드"""
         new_node = Node(data)
