@@ -79,7 +79,18 @@ class LinkedList:
     def insert_after(self, previous_node, data):
         """링크드 리스트 추가 연산 메소드"""
         # 코드를 쓰세요
-        
+        #맨끝에 데이터 추가
+            1. new_node의 이전 노드를 previous_node로 설정
+            2. previous_node의 다음 노드를 new_node로 설정
+            3. tail을 new_node로 설정
+
+            # 중간에 삽입
+            1. new_node의 이전 노드로-> previous_node를 설정
+            2. new_node의 다음 노드를-> previous_node의 다음 노드로 설정
+            3.previous_node의 다음 노드의 이전 노드를 -> new_node로 설정
+            4. prevous_node의 다음 노드로 ->  new_node로 설정
+
+self.tail.next = new_node
     def find_node_at(self, index):
         """링크드 리스트 접근 연산 메소드. 파라미터 인덱스는 항상 있다고 가정한다"""
 
